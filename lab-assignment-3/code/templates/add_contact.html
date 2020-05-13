@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<a href="/">Home Page</a>
+<hr>
+
+<h1>Add Contact</h1>
+<form method="POST" class="form-group">
+	{{ form.hidden_tag() }}
+	<!-- CSRF token -->
+	<div>
+		{{ form.name.label }} {{ form.name() }}
+	</div>
+	<div>
+		{{ form.mobile_no.label }} {{ form.mobile_no() }}
+	</div>
+	<div>
+		{{ form.email.label }} {{ form.email() }}
+	</div>
+	<br>
+	{{ form.submit() }}
+</form>
+{% endblock %}
