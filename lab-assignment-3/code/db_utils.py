@@ -38,15 +38,14 @@ def add_contact(contact):
 
 
 def get_contacts():
-    cursor = cnx.cursor()
     try:
+        cursor = cnx.cursor()
         cursor.execute("SELECT * FROM contacts")
         contacts = cursor.fetchall()
         cursor.close()
         return contacts
     except Exception as e:
         print(e)
-        cursor.close()
         flash("Error occured while reading from the database")
         return None
 

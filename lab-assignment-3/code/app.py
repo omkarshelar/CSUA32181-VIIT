@@ -13,6 +13,8 @@ app.secret_key = 'any random string'
 @app.route('/', methods=["GET"])
 def list_contacts():
     contacts = db_utils.get_contacts()
+    if contacts is None:
+        return "Error conecting to database. Ensure that the database is installed properly."
     return render_template('list_contacts.html', contacts=contacts)
 
 # Add a contact to phonebook
@@ -46,4 +48,4 @@ def delete_contact(contact_id):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80)
