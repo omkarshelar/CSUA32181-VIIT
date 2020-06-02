@@ -141,14 +141,11 @@ Compare output with the following.
 End of Assignment-3.
 
 ---
-Don't forget to star this repo : 
-<a class="github-button" href="https://github.com/omkarshelar/CSUA32181-VIIT" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+Don't forget to [Star](https://github.com/omkarshelar/CSUA32181-VIIT) this repo : 
 
 Created By :
-<a class="github-button" href="https://github.com/omkarshelar" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @omkarshelar on GitHub">Follow @omkarshelar</a>
+[@omkarshelar](https://github.com/omkarshelar)
 and
-<a class="github-button" href="https://github.com/vishal-meshram" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @vishal-meshram on GitHub">Follow @vishal-meshram</a>
+[@vishal-meshram](https://github.com/vishal-meshram)
 
-Feel free
-<a class="github-button" href="https://github.com/omkarshelar/CSUA32181-VIIT/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Fork omkarshelar/CSUA32181-VIIT on GitHub">Fork</a>
- to submit a pull request for corrections/suggestions.
+Feel free [Fork](https://github.com/omkarshelar/CSUA32181-VIIT/fork) and submit a pull request for corrections/suggestions.
